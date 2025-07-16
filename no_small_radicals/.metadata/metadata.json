@@ -1,0 +1,12 @@
+{
+  "name" : "no_small_radicals",
+  "id" : "",
+  "version" : "1.0",
+  "supported_game_version" : "1.9.*",
+  "short_description" : "",
+  "tags" : ["Balance","Fixes","Gameplay","Interest Groups","Pops"],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

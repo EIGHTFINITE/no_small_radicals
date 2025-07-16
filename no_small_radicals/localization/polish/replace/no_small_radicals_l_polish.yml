@@ -1,0 +1,4 @@
+﻿l_polish:
+ je_no_small_radicals:0 "$mm_radicals$"
+ je_no_small_radicals_reason:0 ""
+ modifier_no_small_radicals:0 "$mm_radicals$"

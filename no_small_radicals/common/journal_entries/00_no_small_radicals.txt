@@ -1,0 +1,28 @@
+﻿je_no_small_radicals = {
+	icon = "gfx/interface/icons/alert_icons/radicalized.dds"
+
+	group = je_group_crises
+
+	is_shown_when_inactive = {
+		NOT = { has_variable = no_small_radicals_active }
+	}
+
+	possible = {
+		hidden_trigger = { NOT = { has_variable = no_small_radicals_active } }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_variable = no_small_radicals_active }
+			}
+			trigger_event = { id = no_small_radicals.1 }
+		}
+	}
+
+	complete = {
+		has_variable = no_small_radicals_active
+	}
+
+	weight = 0
+}
