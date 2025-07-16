@@ -3964,6 +3964,7 @@ on_revolution_start = {
 				}
 				scope:target ?= {
 					set_variable = { name = civil_war_type_var value = prev.political_movement.type }
+					trigger_event = { id = no_small_radicals.1 }
 				}
 			}
 		}
