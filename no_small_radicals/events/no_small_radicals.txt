@@ -25,14 +25,74 @@ no_small_radicals.1 = {
 							is_revolutionary = yes
 							AND = {
 								is_subject = yes
-								any_scope_state = {
-									is_split_state = no
-									count <= 5
+								NOR = {
+									any_scope_state = {
+										count >= 7
+									}
+									AND = {
+										any_scope_state = {
+											is_split_state = no
+											count >= 1
+										}
+										any_scope_state = {
+											is_split_state = yes
+											count >= 5
+										}
+									}
+									AND = {
+										any_scope_state = {
+											is_split_state = no
+											count >= 2
+										}
+										any_scope_state = {
+											is_split_state = yes
+											count >= 3
+										}
+									}
+									AND = {
+										any_scope_state = {
+											is_split_state = no
+											count >= 3
+										}
+										any_scope_state = {
+											is_split_state = yes
+											count >= 1
+										}
+									}
+									any_scope_state = {
+										is_split_state = no
+										count >= 4
+									}
 								}
 							}
-							any_scope_state = {
-								is_split_state = no
-								count <= 3
+							NOR = {
+								any_scope_state = {
+									count >= 5
+								}
+								AND = {
+									any_scope_state = {
+										is_split_state = no
+										count >= 1
+									}
+									any_scope_state = {
+										is_split_state = yes
+										count >= 3
+									}
+								}
+								AND = {
+									any_scope_state = {
+										is_split_state = no
+										count >= 2
+									}
+									any_scope_state = {
+										is_split_state = yes
+										count >= 1
+									}
+								}
+								any_scope_state = {
+									is_split_state = no
+									count >= 3
+								}
 							}
 						}
 					}
