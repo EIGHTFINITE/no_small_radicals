@@ -14,6 +14,210 @@ no_small_radicals.1 = {
 			limit = {
 				is_player = yes
 			}
+			if = {
+				limit = {
+					month = 0
+				}
+				set_global_variable = no_small_radicals_jan
+				remove_global_variable = no_small_radicals_feb
+				remove_global_variable = no_small_radicals_mar
+				remove_global_variable = no_small_radicals_apr
+				remove_global_variable = no_small_radicals_may
+				remove_global_variable = no_small_radicals_jun
+				remove_global_variable = no_small_radicals_jul
+				remove_global_variable = no_small_radicals_aug
+				remove_global_variable = no_small_radicals_sep
+				remove_global_variable = no_small_radicals_oct
+				remove_global_variable = no_small_radicals_nov
+				remove_global_variable = no_small_radicals_dec
+			}
+			if = {
+				limit = {
+					month = 1
+				}
+				remove_global_variable = no_small_radicals_jan
+				set_global_variable = no_small_radicals_feb
+				remove_global_variable = no_small_radicals_mar
+				remove_global_variable = no_small_radicals_apr
+				remove_global_variable = no_small_radicals_may
+				remove_global_variable = no_small_radicals_jun
+				remove_global_variable = no_small_radicals_jul
+				remove_global_variable = no_small_radicals_aug
+				remove_global_variable = no_small_radicals_sep
+				remove_global_variable = no_small_radicals_oct
+				remove_global_variable = no_small_radicals_nov
+				remove_global_variable = no_small_radicals_dec
+			}
+			if = {
+				limit = {
+					month = 2
+				}
+				remove_global_variable = no_small_radicals_jan
+				remove_global_variable = no_small_radicals_feb
+				set_global_variable = no_small_radicals_mar
+				remove_global_variable = no_small_radicals_apr
+				remove_global_variable = no_small_radicals_may
+				remove_global_variable = no_small_radicals_jun
+				remove_global_variable = no_small_radicals_jul
+				remove_global_variable = no_small_radicals_aug
+				remove_global_variable = no_small_radicals_sep
+				remove_global_variable = no_small_radicals_oct
+				remove_global_variable = no_small_radicals_nov
+				remove_global_variable = no_small_radicals_dec
+			}
+			if = {
+				limit = {
+					month = 3
+				}
+				remove_global_variable = no_small_radicals_jan
+				remove_global_variable = no_small_radicals_feb
+				remove_global_variable = no_small_radicals_mar
+				set_global_variable = no_small_radicals_apr
+				remove_global_variable = no_small_radicals_may
+				remove_global_variable = no_small_radicals_jun
+				remove_global_variable = no_small_radicals_jul
+				remove_global_variable = no_small_radicals_aug
+				remove_global_variable = no_small_radicals_sep
+				remove_global_variable = no_small_radicals_oct
+				remove_global_variable = no_small_radicals_nov
+				remove_global_variable = no_small_radicals_dec
+			}
+			if = {
+				limit = {
+					month = 4
+				}
+				remove_global_variable = no_small_radicals_jan
+				remove_global_variable = no_small_radicals_feb
+				remove_global_variable = no_small_radicals_mar
+				remove_global_variable = no_small_radicals_apr
+				set_global_variable = no_small_radicals_may
+				remove_global_variable = no_small_radicals_jun
+				remove_global_variable = no_small_radicals_jul
+				remove_global_variable = no_small_radicals_aug
+				remove_global_variable = no_small_radicals_sep
+				remove_global_variable = no_small_radicals_oct
+				remove_global_variable = no_small_radicals_nov
+				remove_global_variable = no_small_radicals_dec
+			}
+			if = {
+				limit = {
+					month = 5
+				}
+				remove_global_variable = no_small_radicals_jan
+				remove_global_variable = no_small_radicals_feb
+				remove_global_variable = no_small_radicals_mar
+				remove_global_variable = no_small_radicals_apr
+				remove_global_variable = no_small_radicals_may
+				set_global_variable = no_small_radicals_jun
+				remove_global_variable = no_small_radicals_jul
+				remove_global_variable = no_small_radicals_aug
+				remove_global_variable = no_small_radicals_sep
+				remove_global_variable = no_small_radicals_oct
+				remove_global_variable = no_small_radicals_nov
+				remove_global_variable = no_small_radicals_dec
+			}
+			if = {
+				limit = {
+					month = 6
+				}
+				remove_global_variable = no_small_radicals_jan
+				remove_global_variable = no_small_radicals_feb
+				remove_global_variable = no_small_radicals_mar
+				remove_global_variable = no_small_radicals_apr
+				remove_global_variable = no_small_radicals_may
+				remove_global_variable = no_small_radicals_jun
+				set_global_variable = no_small_radicals_jul
+				remove_global_variable = no_small_radicals_aug
+				remove_global_variable = no_small_radicals_sep
+				remove_global_variable = no_small_radicals_oct
+				remove_global_variable = no_small_radicals_nov
+				remove_global_variable = no_small_radicals_dec
+			}
+			if = {
+				limit = {
+					month = 7
+				}
+				remove_global_variable = no_small_radicals_jan
+				remove_global_variable = no_small_radicals_feb
+				remove_global_variable = no_small_radicals_mar
+				remove_global_variable = no_small_radicals_apr
+				remove_global_variable = no_small_radicals_may
+				remove_global_variable = no_small_radicals_jun
+				remove_global_variable = no_small_radicals_jul
+				set_global_variable = no_small_radicals_aug
+				remove_global_variable = no_small_radicals_sep
+				remove_global_variable = no_small_radicals_oct
+				remove_global_variable = no_small_radicals_nov
+				remove_global_variable = no_small_radicals_dec
+			}
+			if = {
+				limit = {
+					month = 8
+				}
+				remove_global_variable = no_small_radicals_jan
+				remove_global_variable = no_small_radicals_feb
+				remove_global_variable = no_small_radicals_mar
+				remove_global_variable = no_small_radicals_apr
+				remove_global_variable = no_small_radicals_may
+				remove_global_variable = no_small_radicals_jun
+				remove_global_variable = no_small_radicals_jul
+				remove_global_variable = no_small_radicals_aug
+				set_global_variable = no_small_radicals_sep
+				remove_global_variable = no_small_radicals_oct
+				remove_global_variable = no_small_radicals_nov
+				remove_global_variable = no_small_radicals_dec
+			}
+			if = {
+				limit = {
+					month = 9
+				}
+				remove_global_variable = no_small_radicals_jan
+				remove_global_variable = no_small_radicals_feb
+				remove_global_variable = no_small_radicals_mar
+				remove_global_variable = no_small_radicals_apr
+				remove_global_variable = no_small_radicals_may
+				remove_global_variable = no_small_radicals_jun
+				remove_global_variable = no_small_radicals_jul
+				remove_global_variable = no_small_radicals_aug
+				remove_global_variable = no_small_radicals_sep
+				set_global_variable = no_small_radicals_oct
+				remove_global_variable = no_small_radicals_nov
+				remove_global_variable = no_small_radicals_dec
+			}
+			if = {
+				limit = {
+					month = 10
+				}
+				remove_global_variable = no_small_radicals_jan
+				remove_global_variable = no_small_radicals_feb
+				remove_global_variable = no_small_radicals_mar
+				remove_global_variable = no_small_radicals_apr
+				remove_global_variable = no_small_radicals_may
+				remove_global_variable = no_small_radicals_jun
+				remove_global_variable = no_small_radicals_jul
+				remove_global_variable = no_small_radicals_aug
+				remove_global_variable = no_small_radicals_sep
+				remove_global_variable = no_small_radicals_oct
+				set_global_variable = no_small_radicals_nov
+				remove_global_variable = no_small_radicals_dec
+			}
+			if = {
+				limit = {
+					month = 11
+				}
+				remove_global_variable = no_small_radicals_jan
+				remove_global_variable = no_small_radicals_feb
+				remove_global_variable = no_small_radicals_mar
+				remove_global_variable = no_small_radicals_apr
+				remove_global_variable = no_small_radicals_may
+				remove_global_variable = no_small_radicals_jun
+				remove_global_variable = no_small_radicals_jul
+				remove_global_variable = no_small_radicals_aug
+				remove_global_variable = no_small_radicals_sep
+				remove_global_variable = no_small_radicals_oct
+				remove_global_variable = no_small_radicals_nov
+				set_global_variable = no_small_radicals_dec
+			}
 			every_country = {
 				if = {
 					limit = {
