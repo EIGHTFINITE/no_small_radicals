@@ -1,0 +1,212 @@
+﻿no_small_radicals = {
+	is_shown = {
+		is_player = yes
+		game_date > 1836.2.1
+		OR = {
+			NOT = { has_global_variable = no_small_radicals_active }
+			AND = {
+				month = 0
+				NOT = { has_global_variable = no_small_radicals_dec }
+				NOT = { has_global_variable = no_small_radicals_jan }
+			}
+			AND = {
+				month = 1
+				NOT = { has_global_variable = no_small_radicals_jan }
+				NOT = { has_global_variable = no_small_radicals_feb }
+			}
+			AND = {
+				month = 2
+				NOT = { has_global_variable = no_small_radicals_feb }
+				NOT = { has_global_variable = no_small_radicals_mar }
+			}
+			AND = {
+				month = 3
+				NOT = { has_global_variable = no_small_radicals_mar }
+				NOT = { has_global_variable = no_small_radicals_apr }
+			}
+			AND = {
+				month = 4
+				NOT = { has_global_variable = no_small_radicals_apr }
+				NOT = { has_global_variable = no_small_radicals_may }
+			}
+			AND = {
+				month = 5
+				NOT = { has_global_variable = no_small_radicals_may }
+				NOT = { has_global_variable = no_small_radicals_jun }
+			}
+			AND = {
+				month = 6
+				NOT = { has_global_variable = no_small_radicals_jun }
+				NOT = { has_global_variable = no_small_radicals_jul }
+			}
+			AND = {
+				month = 7
+				NOT = { has_global_variable = no_small_radicals_jul }
+				NOT = { has_global_variable = no_small_radicals_aug }
+			}
+			AND = {
+				month = 8
+				NOT = { has_global_variable = no_small_radicals_aug }
+				NOT = { has_global_variable = no_small_radicals_sep }
+			}
+			AND = {
+				month = 9
+				NOT = { has_global_variable = no_small_radicals_sep }
+				NOT = { has_global_variable = no_small_radicals_oct }
+			}
+			AND = {
+				month = 10
+				NOT = { has_global_variable = no_small_radicals_oct }
+				NOT = { has_global_variable = no_small_radicals_nov }
+			}
+			AND = {
+				month = 11
+				NOT = { has_global_variable = no_small_radicals_nov }
+				NOT = { has_global_variable = no_small_radicals_dec }
+			}
+		}
+	}
+
+	possible = {
+		hidden_trigger = {
+			is_player = yes
+			game_date > 1836.2.1
+			OR = {
+				NOT = { has_global_variable = no_small_radicals_active }
+				AND = {
+					month = 0
+					NOT = { has_global_variable = no_small_radicals_dec }
+					NOT = { has_global_variable = no_small_radicals_jan }
+				}
+				AND = {
+					month = 1
+					NOT = { has_global_variable = no_small_radicals_jan }
+					NOT = { has_global_variable = no_small_radicals_feb }
+				}
+				AND = {
+					month = 2
+					NOT = { has_global_variable = no_small_radicals_feb }
+					NOT = { has_global_variable = no_small_radicals_mar }
+				}
+				AND = {
+					month = 3
+					NOT = { has_global_variable = no_small_radicals_mar }
+					NOT = { has_global_variable = no_small_radicals_apr }
+				}
+				AND = {
+					month = 4
+					NOT = { has_global_variable = no_small_radicals_apr }
+					NOT = { has_global_variable = no_small_radicals_may }
+				}
+				AND = {
+					month = 5
+					NOT = { has_global_variable = no_small_radicals_may }
+					NOT = { has_global_variable = no_small_radicals_jun }
+				}
+				AND = {
+					month = 6
+					NOT = { has_global_variable = no_small_radicals_jun }
+					NOT = { has_global_variable = no_small_radicals_jul }
+				}
+				AND = {
+					month = 7
+					NOT = { has_global_variable = no_small_radicals_jul }
+					NOT = { has_global_variable = no_small_radicals_aug }
+				}
+				AND = {
+					month = 8
+					NOT = { has_global_variable = no_small_radicals_aug }
+					NOT = { has_global_variable = no_small_radicals_sep }
+				}
+				AND = {
+					month = 9
+					NOT = { has_global_variable = no_small_radicals_sep }
+					NOT = { has_global_variable = no_small_radicals_oct }
+				}
+				AND = {
+					month = 10
+					NOT = { has_global_variable = no_small_radicals_oct }
+					NOT = { has_global_variable = no_small_radicals_nov }
+				}
+				AND = {
+					month = 11
+					NOT = { has_global_variable = no_small_radicals_nov }
+					NOT = { has_global_variable = no_small_radicals_dec }
+				}
+			}
+		}
+	}
+
+	when_taken = {
+		if = {
+			limit = {
+				is_player = yes
+				game_date > 1836.2.1
+				OR = {
+					NOT = { has_global_variable = no_small_radicals_active }
+					AND = {
+						month = 0
+						NOT = { has_global_variable = no_small_radicals_dec }
+						NOT = { has_global_variable = no_small_radicals_jan }
+					}
+					AND = {
+						month = 1
+						NOT = { has_global_variable = no_small_radicals_jan }
+						NOT = { has_global_variable = no_small_radicals_feb }
+					}
+					AND = {
+						month = 2
+						NOT = { has_global_variable = no_small_radicals_feb }
+						NOT = { has_global_variable = no_small_radicals_mar }
+					}
+					AND = {
+						month = 3
+						NOT = { has_global_variable = no_small_radicals_mar }
+						NOT = { has_global_variable = no_small_radicals_apr }
+					}
+					AND = {
+						month = 4
+						NOT = { has_global_variable = no_small_radicals_apr }
+						NOT = { has_global_variable = no_small_radicals_may }
+					}
+					AND = {
+						month = 5
+						NOT = { has_global_variable = no_small_radicals_may }
+						NOT = { has_global_variable = no_small_radicals_jun }
+					}
+					AND = {
+						month = 6
+						NOT = { has_global_variable = no_small_radicals_jun }
+						NOT = { has_global_variable = no_small_radicals_jul }
+					}
+					AND = {
+						month = 7
+						NOT = { has_global_variable = no_small_radicals_jul }
+						NOT = { has_global_variable = no_small_radicals_aug }
+					}
+					AND = {
+						month = 8
+						NOT = { has_global_variable = no_small_radicals_aug }
+						NOT = { has_global_variable = no_small_radicals_sep }
+					}
+					AND = {
+						month = 9
+						NOT = { has_global_variable = no_small_radicals_sep }
+						NOT = { has_global_variable = no_small_radicals_oct }
+					}
+					AND = {
+						month = 10
+						NOT = { has_global_variable = no_small_radicals_oct }
+						NOT = { has_global_variable = no_small_radicals_nov }
+					}
+					AND = {
+						month = 11
+						NOT = { has_global_variable = no_small_radicals_nov }
+						NOT = { has_global_variable = no_small_radicals_dec }
+					}
+				}
+			}
+			trigger_event = { id = no_small_radicals.1 }
+		}
+	}
+}

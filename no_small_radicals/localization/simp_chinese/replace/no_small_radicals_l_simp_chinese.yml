@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
- je_no_small_radicals:0 "$mm_radicals$"
- je_no_small_radicals_reason:0 ""
- modifier_no_small_radicals:0 "$mm_radicals$"
+ no_small_radicals: "Small Country Disables Radicals"
+ no_small_radicals_desc: "Small Country Disables Radicals doesn't appear to be running. It can be manually started by taking this decision."
+ je_no_small_radicals: "Small Country Disables Radicals (Automatic Start)"
+ je_no_small_radicals_reason: "Will start running automatically at the end of the month."
+ modifier_no_small_radicals: "Small Country Disables Radicals"
