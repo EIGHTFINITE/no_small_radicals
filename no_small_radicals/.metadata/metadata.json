@@ -1,8 +1,8 @@
 {
-  "name" : "no_small_radicals",
+  "name" : "Small Country Disables Radicals",
   "id" : "",
   "version" : "1.0",
-  "supported_game_version" : "1.9.*",
+  "supported_game_version" : "",
   "short_description" : "",
   "tags" : ["Balance","Fixes","Gameplay","Interest Groups","Pops"],
   "relationships" : [],
