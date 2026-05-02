@@ -5,13 +5,13 @@
 
 	is_shown_when_inactive = {
 		is_player = yes
-		NOT = { has_variable = no_small_radicals_active }
+		NOT = { has_global_variable = no_small_radicals_active }
 	}
 
 	possible = {
 		hidden_trigger = {
 			is_player = yes
-			NOT = { has_variable = no_small_radicals_active }
+			NOT = { has_global_variable = no_small_radicals_active }
 		}
 	}
 
@@ -19,14 +19,14 @@
 		if = {
 			limit = {
 				is_player = yes
-				NOT = { has_variable = no_small_radicals_active }
+				NOT = { has_global_variable = no_small_radicals_active }
 			}
 			trigger_event = { id = no_small_radicals.1 }
 		}
 	}
 
 	complete = {
-		has_variable = no_small_radicals_active
+		has_global_variable = no_small_radicals_active
 	}
 
 	weight = 0
